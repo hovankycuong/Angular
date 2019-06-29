@@ -11,12 +11,14 @@ import { MatIconModule, MatListModule, MatGridListModule } from '@angular/materi
 import { MatCardModule, MatMenuModule } from '@angular/material';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { from } from 'rxjs';
+import { CustomerComponent } from './customer/customer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    DashboardComponent
+    DashboardComponent,
+    CustomerComponent
   ],
   imports: [
     BrowserModule,
