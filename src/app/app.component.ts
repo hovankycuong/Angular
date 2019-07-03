@@ -9,7 +9,7 @@ import { LoggerService } from 'my-lib';
 export class AppComponent {
   title = 'my-app';
 
-  constructor(logger: LoggerService){
+  constructor(logger: LoggerService) {
     logger.log('Leverage logger service in my-lib June 29, 2019');
   }
 
